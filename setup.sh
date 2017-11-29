@@ -21,6 +21,6 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64/${LD_LIBRARY_PATH:+:${LD_LIBRAR
 
 sudo apt-get -y install libcupti-dev
 sudo apt-get -y install python3-pip python3-dev
-pip3 install --upgrade tensorflow-gpu
+pip3 install --upgrade tensorflow-gpu keras
 sudo apt-get -y install ipython ipython-notebook
 sudo -H pip3 install jupyter
