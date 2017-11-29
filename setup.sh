@@ -6,6 +6,7 @@ curl -O http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_6
 sudo dpkg -i ./cuda-repo-ubuntu1604_8.0.61-1_amd64.deb
 sudo apt-get update
 sudo apt-get install cuda-8-0 -y
+rm -rf ./cuda-repo-ubuntu1604_8.0.61-1_amd64.deb
 # install cuDNN v6.0
 CUDNN_TAR_FILE="cudnn-8.0-linux-x64-v6.0.tgz"
 wget http://developer.download.nvidia.com/compute/redist/cudnn/v6.0/${CUDNN_TAR_FILE}
